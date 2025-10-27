@@ -5,7 +5,7 @@ function Footer() {
       <div className="section-wrapper flex flex-col gap-6 text-sm text-slate-600 lg:flex-row lg:items-center lg:justify-between">
         <div>
           <p className="font-semibold text-midnight">© {currentYear} Junior Osorio. MIT License.</p>
-          <p className="mt-1 text-xs text-slate-500">Construido con React + Tailwind y optimizado para Vercel.</p>
+          <p className="mt-1 text-xs text-slate-500">Construido con React + Tailwind. Desplegable en Render, Vercel o AWS.</p>
         </div>
         <div className="flex flex-wrap items-center gap-4">
           <a href="#inicio" className="underline-offset-4 transition hover:text-accent">

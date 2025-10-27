@@ -16,7 +16,7 @@ const steps = [
   },
   {
     title: 'Despliegue, monitoreo y entrenamiento',
-    detail: 'Configuro CI/CD en AWS/Vercel, documento, capacito al equipo y establezco soporte continuo.',
+    detail: 'Configuro CI/CD en Render/Vercel/AWS, documento, capacito al equipo y establezco soporte continuo.',
     time: 'Semana 5+',
   },
 ];

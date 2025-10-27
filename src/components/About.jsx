@@ -21,7 +21,7 @@ function About() {
           <p className="eyebrow">Sobre mí</p>
           <h2 className="text-3xl font-semibold text-midnight sm:text-4xl">Full Stack developer con Node.js, Java, C#, PHP e IA aplicada.</h2>
           <p className="text-base leading-relaxed text-slate-700">
-            Estudiante del último ciclo en TECSUP con experiencia construyendo sistemas empresariales end-to-end: levanto requerimientos, diseño arquitecturas, programo APIs, creo interfaces y despliego en AWS/Vercel con soporte permanente.
+            Estudiante del último ciclo en TECSUP con experiencia construyendo sistemas empresariales end-to-end: levanto requerimientos, diseño arquitecturas, programo APIs, creo interfaces y despliego en Render/Vercel/AWS con soporte permanente.
           </p>
           <div className="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-accent/80">
             <span className="rounded-full border border-accent/30 px-4 py-2">Node.js</span>
@@ -30,6 +30,8 @@ function About() {
             <span className="rounded-full border border-accent/30 px-4 py-2">PHP</span>
             <span className="rounded-full border border-accent/30 px-4 py-2">APIs REST</span>
             <span className="rounded-full border border-accent/30 px-4 py-2">IA aplicada</span>
+            <span className="rounded-full border border-accent/30 px-4 py-2">Render</span>
+            <span className="rounded-full border border-accent/30 px-4 py-2">Vercel</span>
             <span className="rounded-full border border-accent/30 px-4 py-2">AWS</span>
           </div>
         </div>

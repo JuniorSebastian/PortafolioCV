@@ -43,9 +43,9 @@ function ProjectCard({ project }) {
       </div>
       <div className="flex flex-col justify-between">
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.3em] text-accent">Implementación en curso</h3>
+          <h3 className="text-sm font-semibold uppercase tracking-[0.3em] text-accent">En Producción</h3>
           <p className="mt-3 text-lg text-slate-700">
-            Proyecto de titulación para TECSUP actualmente en operación con usuarios piloto y despliegues continuos en AWS y Vercel.
+            Proyecto TecCreate en operación activa para TECSUP con despliegues en Render, Vercel y AWS.
           </p>
           <div className="mt-6 space-y-3 text-sm text-slate-700">
             <p>{project.rolesCopy}</p>
