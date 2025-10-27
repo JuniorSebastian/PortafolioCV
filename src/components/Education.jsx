@@ -16,10 +16,10 @@ function Education() {
           <article className="rounded-3xl border border-slate-200 bg-white p-6 shadow-soft">
             <h3 className="text-lg font-semibold text-midnight">Proyecto de titulación</h3>
             <p className="mt-3 text-sm text-slate-600">
-              Generador de Presentaciones con IA: solución full-stack (Node.js, Java, C#, PHP + Vue.js) que integra Groq y Gemini, PostgreSQL y despliegue automatizado en AWS/Vercel.
+              TecCreate: Sistema generador de presentaciones con IA. Solución full-stack (Node.js + Vue.js) con Groq y Gemini, PostgreSQL y desplegado en Render. +1200 PPTs generadas en producción.
             </p>
             <p className="mt-3 text-xs uppercase tracking-[0.25em] text-accent">
-              Actualmente en implementación con usuarios reales.
+              En producción activa en TECSUP con sistema multi-rol.
             </p>
           </article>
           <article className="rounded-3xl border border-slate-200 bg-white p-6 shadow-soft">

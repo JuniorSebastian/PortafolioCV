@@ -16,8 +16,8 @@ const highlights = [
   },
   {
     value: '1200+',
-    label: 'presentaciones IA generadas',
-    description: 'Resultados del generador de PPT con Groq + Gemini durante pilotos en TECSUP.',
+    label: 'PPTs con IA en producción',
+    description: 'Resultados de TecCreate con Groq + Gemini en uso activo en TECSUP.',
   },
 ];
 

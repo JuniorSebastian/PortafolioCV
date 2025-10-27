@@ -1,13 +1,13 @@
 # Portafolio — Junior Osorio
 
-Portafolio personal construido con Vite + React + Tailwind CSS para destacar el proyecto **Generador de Presentaciones con IA**. El sitio es responsive, accesible y está listo para desplegarse en Vercel.
+Portafolio personal construido con Vite + React + Tailwind CSS para destacar el proyecto **TecCreate - Generador de Presentaciones con IA**. El sitio es responsive, accesible y está listo para desplegarse en Vercel.
 
 ## ✨ Características principales
 - Single-page con navegación anclada, menú responsive y estados activos dinámicos.
-- Secciones: Hero, Sobre mí, Logros, Proyecto destacado, Proceso, Habilidades, Contacto y Footer.
-- Copy oficial del proyecto con roles, funcionalidades, stack y logros.
+- Secciones: Hero, Sobre mí, Logros, Proyecto destacado, Experiencia, Habilidades, Contacto y Footer.
+- Copy oficial del proyecto TecCreate con roles, funcionalidades, stack y logros en producción.
 - Imágenes optimizadas en `public/assets` (incluye foto de perfil `gas.png`) y `loading="lazy"` en el proyecto.
-- Contact form sin backend que envía a `mailto:junior.osorio@example.com`.
+- Contact form sin backend que envía a `mailto:juniorosoriotoribio666@gmail.com`.
 
 ## 🛠️ Tech stack
 - [Vite](https://vitejs.dev/) + React (JSX)
@@ -33,7 +33,7 @@ npm run start    # alias de preview
 ```
 public/
   assets/
-    CV-Junior-Osorio.pdf
+    PortafolioCV.pdf
     gas.png
     logo.png
     og-image.png
@@ -44,11 +44,14 @@ src/
   components/
     About.jsx
     Contact.jsx
+    Education.jsx
+    Experience.jsx
     Footer.jsx
     Hero.jsx
     Navbar.jsx
-    ProjectCard.jsx
+    ProjectShowcase.jsx
     Skills.jsx
+    Stats.jsx
   styles/
     index.css
   App.jsx
@@ -57,13 +60,13 @@ src/
 
 ## 📝 Contenido del proyecto destacado
 ```
-Generador de Presentaciones con IA
-Aplicación full-stack que genera presentaciones PPT usando Groq + Gemini.
+TecCreate - Generador de Presentaciones con IA
+Sistema administrativo multi-rol que genera presentaciones PowerPoint automáticas mediante IA.
 
-Roles: Admin, Soporte, Usuario.
-Funcionalidades: generación automática de diapositivas, QR para compartir, enlaces públicos, gestión de usuarios.
-Stack: Node.js, React, MySQL, Groq, Gemini, Vercel.
-Logros: integración de IA generativa para generar PPT listos para descargar; despliegue estable en producción.
+Roles: Usuario, Admin, Soporte.
+Funcionalidades: generación automática con Groq + Gemini, sistema multi-rol, dashboards, desplegado en Render.
+Stack: Node.js, Vue.js, PostgreSQL, Groq, Gemini, Render, API REST.
+Logros: +1200 PPTs generadas en producción activa en TECSUP; sistema multi-rol con alta disponibilidad.
 ```
 
 ## 🌐 Despliegue en Vercel

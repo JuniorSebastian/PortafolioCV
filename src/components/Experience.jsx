@@ -1,5 +1,21 @@
 const experienceItems = [
   {
+    company: 'TECSUP',
+    period: 'Actualidad',
+    location: 'Lima, Perú',
+    role: 'Desarrollador Full Stack - TecCreate',
+    summary:
+      'Sistema administrativo multi-rol desplegado en producción en Render. Genera presentaciones PowerPoint automáticas mediante IA, revolucionando la creación de material educativo y corporativo.',
+    highlights: [
+      'Desarrollé TecCreate, generador de PPT con IA que alcanzó +1200 presentaciones generadas en uso activo.',
+      'Implementé arquitectura multi-rol con permisos diferenciados: Usuario, Admin y Soporte.',
+      'Integré APIs de IA (Groq y Gemini) para generación automatizada de contenido y diseño profesional.',
+      'Desplegué el sistema completo en Render con alta disponibilidad y escalabilidad.',
+      'Orquesté backend multi-stack (Node.js, Java, C#, PHP) con frontend Vue.js y base de datos PostgreSQL.',
+    ],
+    stack: ['Node.js', 'Vue.js', 'PostgreSQL', 'IA (Groq/Gemini)', 'Render', 'API REST', 'Sistema Multi-Rol'],
+  },
+  {
     company: 'Pantaleon Toribio Graus SRL',
     period: 'Mar 2024 - Actualidad',
     location: 'Lima, Perú',
