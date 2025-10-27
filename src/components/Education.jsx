@@ -8,6 +8,9 @@ function Education() {
           <p className="mt-4 text-base text-slate-600">
             Estudiante de último ciclo (2023 - 2025). Desarrollo proyectos integradores con Node.js, Java, C#, PHP y enfoques de IA, cloud y metodologías ágiles.
           </p>
+          <p className="mt-2 text-sm text-slate-500">
+            Mantengo promedios sobresalientes, ubicándome en el tercio superior de la carrera en tres oportunidades consecutivas.
+          </p>
         </div>
         <div className="grid gap-6 md:grid-cols-2">
           <article className="rounded-3xl border border-slate-200 bg-white p-6 shadow-soft">

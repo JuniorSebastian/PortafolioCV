@@ -29,18 +29,39 @@ function Hero() {
               Ver proyecto
             </a>
             <a
-              href="/assets/CV-Junior-Osorio.pdf"
-              className="rounded-full border border-white/40 px-5 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:border-accent hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-              download
-            >
-              Descargar CV
-            </a>
-            <a
               href="#contacto"
               className="rounded-full border border-white/40 px-5 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:border-accent hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               Contacto
             </a>
+          </div>
+          <div className="w-full max-w-md rounded-3xl border border-white/15 bg-white/10 p-5 text-sm text-slate-100 shadow-soft backdrop-blur">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="text-xs uppercase tracking-[0.3em] text-accent">CV actualizado</p>
+                <p className="mt-2 text-base font-semibold text-white">Portafolio profesional en PDF</p>
+                <p className="mt-2 text-xs text-slate-200/80">
+                  Incluye experiencia, logros, certificaciones y enlaces directos a proyectos en producción.
+                </p>
+              </div>
+              <a
+                href="/assets/PortafolioCV.pdf"
+                download
+                className="inline-flex h-12 w-12 items-center justify-center rounded-full border border-white/30 bg-white/10 text-white transition hover:-translate-y-0.5 hover:border-accent hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                aria-label="Descargar CV en PDF"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24" className="h-6 w-6">
+                  <path
+                    d="M12 4v12m0 0l-4-4m4 4 4-4M5 20h14"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.8"
+                  />
+                </svg>
+              </a>
+            </div>
           </div>
           <div className="grid gap-5 rounded-3xl border border-white/10 bg-white/10 p-6 shadow-soft backdrop-blur sm:grid-cols-2">
             <div>

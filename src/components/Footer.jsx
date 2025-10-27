@@ -20,7 +20,7 @@ function Footer() {
           <a href="/LICENSE" className="underline-offset-4 transition hover:text-accent">
             Ver licencia
           </a>
-          <a href="/assets/CV-Junior-Osorio.pdf" className="underline-offset-4 transition hover:text-accent">
+          <a href="/assets/PortafolioCV.pdf" className="underline-offset-4 transition hover:text-accent">
             CV actualizado
           </a>
         </div>

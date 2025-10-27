@@ -55,9 +55,14 @@ function Navbar({ links }) {
       }`}
     >
       <div className="relative mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#inicio" className="text-lg font-semibold tracking-tight" aria-label="Ir al inicio">
-          Junior Osorio
-        </a>
+        <div className="flex items-center gap-3">
+          <a href="#inicio" className="text-lg font-semibold tracking-tight" aria-label="Ir al inicio">
+            Junior Osorio
+          </a>
+          <span className="hidden rounded-full border border-white/15 bg-white/10 px-3 py-1 text-[11px] uppercase tracking-[0.3em] text-white/70 md:inline-flex">
+            Full Stack · IA
+          </span>
+        </div>
         <nav className="hidden items-center gap-8 text-sm font-medium md:flex" aria-label="Primary">
           {links.map((link) => (
             <a
@@ -78,11 +83,15 @@ function Navbar({ links }) {
           ))}
         </nav>
         <div className="hidden items-center gap-3 md:flex">
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold text-white/80">
+            <span className="h-2 w-2 rounded-full bg-emerald-400" aria-hidden="true" />
+            Disponible
+          </span>
           <a
-            href="/assets/CV-Junior-Osorio.pdf"
-            className="rounded-full border border-white/30 px-4 py-2 text-sm font-semibold transition hover:border-accent hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            href="mailto:juniorosoriotoribio666@gmail.com"
+            className="inline-flex items-center gap-2 rounded-full border border-white/30 px-4 py-2 text-sm font-semibold text-white/90 transition hover:-translate-y-0.5 hover:border-accent hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
-            Descargar CV
+            Escríbeme
           </a>
         </div>
         <button
@@ -130,15 +139,6 @@ function Navbar({ links }) {
                 </a>
               </li>
             ))}
-            <li>
-              <a
-                href="/assets/CV-Junior-Osorio.pdf"
-                className="block rounded-lg px-3 py-2 transition hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-                onClick={closeMenu}
-              >
-                Descargar CV
-              </a>
-            </li>
             <li>
               <a
                 href="mailto:juniorosoriotoribio666@gmail.com"
